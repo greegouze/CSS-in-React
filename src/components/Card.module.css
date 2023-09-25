@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  padding: 1rem;
+  background-color: blue;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px gray;
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  text-shadow: 0px 0px 5px gray;
+}
+
+.cardImg {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  border-radius: inherit;
+  box-shadow: inherit;
+}
+
+.card:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.title {
+  font-size: 30px;
+}
